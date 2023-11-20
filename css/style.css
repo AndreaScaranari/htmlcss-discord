@@ -95,7 +95,7 @@ header {
 }
 
 .main-text p {
-    margin: 40px 0;
+    margin-top: 40px;
     line-height: 28px;
     font-size: 1.5rem;
 }
@@ -104,10 +104,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    height: 80px;
 }
 
 .hero-buttons a {
-    height: 80px;
     width: 310px;
     margin-top: 25px;
     text-decoration: none;
@@ -129,28 +129,47 @@ header {
 /* 60-40 */
 .container-sixtyforty {
     background-color: #fff;
-    height: 450px;
+    height: 680px;
     width: 100%;
+    padding: 120px 40px;
 }
 
 .sixtyforty {
-    height: 80%;
+    height: 100%;
     width: 60%;
     display: flex;
 }
 
 .sixty {
-    background-color: #1E90FF;
+    /* background-color: #1E90FF; */
     width: 60%;
 }
 
 .forty {
-    background-color: #FFC0CB;
+    background-color: transparent;
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forty h2 {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.forty p {
+    font-size: 1.4rem;
+    line-height: 28px;
+    margin-top: 24px;
 }
 
 .gray .sixty {
     order:1;
+}
+
+.frog {
+    background-image: url(../img/item1.svg);
 }
 
 /* Big Green Square */
