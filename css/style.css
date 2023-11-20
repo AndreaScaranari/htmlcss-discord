@@ -153,12 +153,12 @@ header {
     justify-content: center;
 }
 
-.forty h2 {
+h2 {
     font-weight: 800;
     font-size: 48px;
 }
 
-.forty p {
+p {
     font-size: 1.4rem;
     line-height: 28px;
     margin-top: 24px;
@@ -182,14 +182,15 @@ header {
 
 /* Big Container */
 .big-container {
-    height: 900px;
+    height: 1100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 120px 40px 80px;
 }
 
 .big-container-box {
-    width: 60%;
+    width: 70%;
     height: 90%;
 }
 
@@ -198,10 +199,12 @@ header {
 }
 
 .bcb-image {
+    margin-top: 16px;
     background-image: url(../img/item4-big.svg);
     height: 715px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 /* Links-Area */
