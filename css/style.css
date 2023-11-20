@@ -21,37 +21,56 @@ section.gray {
 
 /* Header */
 header {
-    background-color: #ADD8E6;
+    background-color: #404EED;
 }
 
 #header {
-    height: 60px;
-    width: 60%;
+    height: 80px;
+    width: 1240px;
     margin: 0 auto;
-    padding: 35px;
-}
-
-#header > * {
-    background-color: goldenrod;
-    padding: 10px;
+    padding: 0 40px;
 }
 
 .header-logo {
-    flex-grow: 1;
+    color: white;
+    font-weight: 800;
+    font-size: 1.2rem;
+    width: 124px;
+}
+
+.fa-discord {
+    font-size: 1.4rem;
 }
 
 .header-links {
-    flex-grow: 2;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.hlcol {
+    padding: 10px;
+    margin: 10px;
     text-align: center;
 }
 
-.header-links > a {
+.header-links a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .header-login {
-    flex-grow: 1;
+    width: 124px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-login-button {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 6px 12px;
+    border-radius: 15px;
+
 }
 
 /* Hero */
