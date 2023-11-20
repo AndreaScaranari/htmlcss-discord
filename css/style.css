@@ -44,7 +44,8 @@ header {
 }
 
 .fa-discord {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
+    vertical-align: middle;
 }
 
 .header-links {
@@ -73,8 +74,9 @@ header {
     text-decoration: none;
     color: black;
     background-color: white;
-    padding: 6px 12px;
-    border-radius: 15px;
+    padding: 12px 16px;
+    border-radius: 20px;
+    font-size: small;
 }
 
 /* Hero */
@@ -326,15 +328,32 @@ footer {
 }
 
 .footer-box {
-    background-color: #7FFFD4;
+    /* background-color: #7FFFD4; */
     height: 70%;
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
-.footeritem {
-    background-color: #FFB6C1;
-    padding: 0 10px;
+.logo-footer {
+    font-weight: 900;
+    height: 34px;
+    line-height: 34px;
+}
+
+.footeritem i {
+    vertical-align: middle;
+}
+
+.bottone-footer {
+    width: 110px;
+    color: white;
+    background-color: #5865F2;
+    border-radius: 28px;
+    font-size: 14px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
 }
