@@ -21,7 +21,7 @@ section.gray {
 
 /* Header */
 header {
-    background-color: #404EED;
+    background-color: #255EE9;
 }
 
 #header {
@@ -70,19 +70,60 @@ header {
     background-color: white;
     padding: 6px 12px;
     border-radius: 15px;
-
 }
 
 /* Hero */
 .hero {
-    background-color: #00008B;
-    height: 400px;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    color: white;
+    text-align: center;
 }
 
 .hero-box {
-    background-color: #EE82EE;
-    width: 40%;
-    height: 80%;
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+    padding: 120px 70px;
+}
+
+.main-text h1 {
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.main-text p {
+    margin: 40px 0;
+    line-height: 28px;
+    font-size: 1.5rem;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-buttons a {
+    height: 80px;
+    width: 310px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 16px 32px;
+    border-radius: 28px;
+}
+
+.hb-download {
+    margin-right: 25px;
+}
+
+.hb-open a {
+    color: white;
+    background-color: black;
 }
 
 /* 60-40 */
