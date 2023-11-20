@@ -207,6 +207,39 @@ p {
     background-position: center;
 }
 
+.bbb-container {
+    height: 285px;
+    padding-bottom: 120px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h5 {
+    height: 50px;
+    /* background-image: url(../img/stars.svg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.bbb-container img {
+    vertical-align: baseline;
+    line-height: 1.15;
+}
+
+.bbb-container a {
+        width: 310px;
+        text-decoration: none;
+        color: white;
+        background-color: #5865F2;
+        padding: 16px 32px;
+        border-radius: 28px;
+        font-size: 20px;
+}
+
 /* Links-Area */
 .links-area {
     background-color: #23272A;
