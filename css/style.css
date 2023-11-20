@@ -10,7 +10,7 @@
 }
 
 section.gray {
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 .fcc {
@@ -172,15 +172,36 @@ header {
     background-image: url(../img/item1.svg);
 }
 
-/* Big Green Square */
-.big-green {
-    height: 900px;
+.wizard {
+    background-image: url(../img/item2.svg);
 }
 
-.green-box {
-    background-color: #228B22;
+.gene {
+    background-image: url(../img/item3.svg);
+}
+
+/* Big Container */
+.big-container {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-container-box {
     width: 60%;
     height: 90%;
+}
+
+.bcb-text {
+    text-align: center;
+}
+
+.bcb-image {
+    background-image: url(../img/item4-big.svg);
+    height: 715px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Links-Area */
