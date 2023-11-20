@@ -1,0 +1,157 @@
+/* Utils */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border {
+    border: 2px dashed black;
+}
+
+section.gray {
+    background-color: #D3D3D3;
+}
+
+.fcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+header {
+    background-color: #ADD8E6;
+}
+
+#header {
+    height: 60px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+#header > * {
+    background-color: goldenrod;
+    padding: 10px;
+}
+
+.header-logo {
+    flex-grow: 1;
+}
+
+.header-links {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.header-links > a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-login {
+    flex-grow: 1;
+}
+
+/* Hero */
+.hero {
+    background-color: #00008B;
+    height: 400px;
+}
+
+.hero-box {
+    background-color: #EE82EE;
+    width: 40%;
+    height: 80%;
+}
+
+/* 60-40 */
+.container-sixtyforty {
+    background-color: #fff;
+    height: 450px;
+    width: 100%;
+}
+
+.sixtyforty {
+    height: 80%;
+    width: 60%;
+    display: flex;
+}
+
+.sixty {
+    background-color: #1E90FF;
+    width: 60%;
+}
+
+.forty {
+    background-color: #FFC0CB;
+    width: 40%;
+}
+
+.gray .sixty {
+    order:1;
+}
+
+/* Big Green Square */
+.big-green {
+    height: 900px;
+}
+
+.green-box {
+    background-color: #228B22;
+    width: 60%;
+    height: 90%;
+}
+
+/* Links-Area */
+.links-area {
+    background-color: #23272A;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.links-area-box {
+    width: 60%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.lab-bigcolumn {
+    background-color: #F08080;
+    width: 30%;
+}
+
+.lab-smallcolumn {
+    background-color: #20B2AA;
+    width: calc(70%/4);
+    border-color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #23272A;
+    height: 80px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-box {
+    background-color: #7FFFD4;
+    height: 70%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footeritem {
+    background-color: #FFB6C1;
+    padding: 0 10px;
+}
